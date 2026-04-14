@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Queensland Fuel Prices",
+        "description": "Enter your FPD API subscriber token from fuelpricesqld.com.au",
+        "data": {
+          "api_key": "Data Consumer Token",
+          "fuel_types": "Fuel Types to Track"
+        },
+        "data_description": {
+          "api_key": "Your Data ConsumerToken from fuelpricesqld.com.au",
+          "fuel_types": "Select the fuel types you want to create sensors for"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the Fuel Prices Queensland API. Check your network.",
+      "invalid_auth": "Invalid API subscriber token. Please check and try again.",
+      "unknown": "An unexpected error occurred. Check the Home Assistant logs for details."
+    },
+    "abort": {
+      "already_configured": "Queensland Fuel Prices is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  }
+}
